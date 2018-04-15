@@ -27,7 +27,7 @@ Finally I send in my ```test``` and ```payload``` to the notary and am presented
 ## Part 2
 
 For this part of the assignment we were to send an encrypted email using a PGP public key provided to ```pgpassignment@gmail.com.```
-I tried both using the GPG command line tool and using a web based GPG encryption. First I generated a PGP key using ```gpg --gen-key```, I then imported and encrypted my message, ```I really enjoyed the CTF!```, I used a piece of software called GPG Keychain, shown below to import my secret key and the public key provided and send my encrypted message to ```pgpassignment@gmail.com```. 
+I tried both using the GPG command line tool and using encryption software. First I generated a PGP key using ```gpg --gen-key```, I then imported and encrypted my message, ```I really enjoyed the CTF!```, I used a piece of software called GPG Keychain, shown below to import my secret key and the public key provided and send my encrypted message to ```pgpassignment@gmail.com```. 
 
 ![alt text](https://github.com/yreiss1/Cryptography-2/blob/master/gpgkeychain.png)
 
