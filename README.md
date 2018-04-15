@@ -22,16 +22,16 @@ Finally I send in my ```test``` and ```payload``` to the notary and am presented
 
 ```CMSC389R-{merkle_damgard_unguarded}```
 
-[!alt text](https://github.com/yreiss1/Cryptography-2/blob/master/Part1.png)
+![alt text](https://github.com/yreiss1/Cryptography-2/blob/master/Part1.png)
 
 ## Part 2
 
 For this part of the assignment we were to send an encrypted email using a PGP public key provided to ```pgpassignment@gmail.com.```
 I tried both using the GPG command line tool and using a web based GPG encryption. First I generated a PGP key using ```gpg --gen-key```, I then imported and encrypted my message, ```I really enjoyed the CTF!```, I used a piece of software called GPG Keychain, shown below to import my secret key and the public key provided and send my encrypted message to ```pgpassignment@gmail.com```. 
 
-[!alt text](https://github.com/yreiss1/Cryptography-2/blob/master/gpgkeychain.png)
+![alt text](https://github.com/yreiss1/Cryptography-2/blob/master/gpgkeychain.png)
 
-[!alt text](https://github.com/yreiss1/Cryptography-2/blob/master/email.png)
+![alt text](https://github.com/yreiss1/Cryptography-2/blob/master/email.png)
 
 I then recieved a message which contained this flag: 
 ```CMSC389R-{thanks_f0r_com1ng_t0_UMDCTF}```
